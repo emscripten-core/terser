@@ -1,6 +1,6 @@
 // API
 import "./lib/transform.js";
-export { minify } from "./lib/minify.js";
+//export { minify } from "./lib/minify.js";
 
 // CLI
 export {
@@ -133,12 +133,12 @@ export {
 } from "./lib/utils/index.js";
 export { base54 } from "./lib/scope.js";
 export { Compressor } from "./lib/compress/index.js";
-export { to_ascii } from "./lib/minify.js";
+//export { to_ascii } from "./lib/minify.js";
 export { OutputStream } from "./lib/output.js";
 export { parse, tokenizer as _tokenizer, JS_Parse_Error as _JS_Parse_Error }  from "./lib/parse.js";
 export {
     mangle_properties,
     reserve_quoted_keys,
 } from "./lib/propmangle.js";
-export { default_options } from "./tools/node";
+//export { default_options } from "./tools/node";
 import "./lib/mozilla-ast.js";
