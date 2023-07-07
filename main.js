@@ -4,6 +4,7 @@ import { minify } from "./lib/minify.js";
 
 export { minify } from "./lib/minify.js";
 export { run_cli as _run_cli } from "./lib/cli.js";
+export { AST_Node, AST_Token } from "./lib/ast.js";
 
 export async function _default_options() {
     const defs = {};
